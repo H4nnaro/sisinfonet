@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+span {
+	font-family: "Noto Sans JP", sans-serif;
+}
+
+.logo-kmki {
+	font-family: "Noto Serif Georgian", serif;
+	font-style: italic;
+	font-size: 2.5rem;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
+.no-scrollbar {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.grabbing {
+	cursor: grabbing !important;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.text-primary {
+	color: #162b57;
+}
+
+.text-secondary {
+	color: #8097be;
+}
+
+.text-gray {
+	color: #717e9b;
+}
+
+.bg-primary {
+	background-color: #162b57;
+}
+
+.bg-secondary {
+	background-color: #8097be;
+}
+
+.bg-gray {
+	background-color: #717e9b;
+}
